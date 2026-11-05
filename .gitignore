@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset files - do not upload large raw datasets
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Model weights
+models/**/*.h5
+models/**/*.keras
+models/**/*.tflite
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
